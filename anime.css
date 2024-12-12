@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 400px;
+    margin: 0 auto;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(38, 53, 53);
+    height: 200vh;
+}
+.nav1{
+    background-color: aliceblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.kunci{
+    display: flex;
+    align-items: center;
+}
+.kunci img{
+    width: 40px;
+    border-radius: 99px;
+    
+}
+.kunci p{
+    padding-left: 10px;
+    font-size: 30px;
+}
+.profil{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.profil img{
+    width: 50px;
+    border-radius: 60%;
+}
+.profil p{
+    font-size: 12px;
+    padding-right: 10px;
+}
+.nav2{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 10px 10px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+}
+.prem{
+    display: flex;
+    width: 150px;
+    background-color: aqua;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.prem img{
+    width: 50px;
+    border-radius: 10px;
+    padding: 3px;
+}
+.harga{
+    font-size: 12px;
+    padding-top: 7px;
+    margin-left: 50px;
+}
+.iklan{
+    box-shadow: 1px 1px 2px white;
+    margin: 10px 10px;
+    width: auto;
+    height: 230px;
+    max-width: 800px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    display: block;
+    margin: 10px auto;
+}
+.iklan img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover;   
+    object-position: center;
+    border-radius: 20px 20px 0px 0px;
+}
+.iklan figcaption{
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+}
+.pencarian{
+    background-color: rgb(205, 205, 172);
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 10px 10px;
+    height: 40px;
+    border-radius: 50px;
+    justify-content: start;
+    padding-left: 12px;
+}
+.pencarian p{
+    font-size: 12px;
+    margin: 12px;
+}
+.gendre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+.g_card{
+    width: auto;
+    height: 30px;
+    border: 2px solid rgb(121, 110, 110);
+    border-radius: 20px;
+    padding: 0px 20px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 5px;
+}
+.content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.content > h1{
+    font-size: 20px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+.c_content{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows:230px 230px 230px ;
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i";
+}
+
+.content img{
+    width: 120px;
+    border-radius: 10px 10px 0px 0px;
+}
+.content p{
+    color: aliceblue;
+    font-weight:lighter;
+    font-size: 10px;
+}
+.content h1{
+    color: aliceblue;
+    font-size: 20px;
+}
+.c1{
+    grid-area: a;
+}
+.c2{
+    grid-area: b;
+}
+.c3{
+    grid-area: c;
+}
+
+.c4{
+
+    grid-area: d;
+}
+.c5{
+    grid-area: e;
+}
+.c6{
+    grid-area: f;
+}
+.c7{
+    grid-area: g;
+}
+.naruto-1 {
+    font-size: 18px;
+}
+.c8{
+    grid-area: h;
+}
+.c9{
+    grid-area: i;
+}
